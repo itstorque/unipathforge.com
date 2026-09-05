@@ -3,149 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UniPathForge</title>
+    <title>UniPath Consultancy - Guiding Your Educational Journey</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* More modern font */
-            margin: 40px; /* Increased margin around the page */
-            line-height: 1.7;
-            background-color: #dfd1c2; /*##f9f9f9; Slightly warmer grey*/
-            color: #333;
+        header.hero .hero-image {
+            background-image: url('assets/images/hero-students.png');
         }
-        .container {
-            max-width: 900px; /* Slightly wider container */
-            margin: 40px auto;
-            background-color: #faf6ee;
-            padding: 40px; /* Increased padding inside container */
-            border-radius: 12px; /* More pronounced rounded corners */
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08); /* Softer, more modern shadow */
-        }
-        header {
-            text-align: center; /* Center the header content */
-            margin-bottom: 30px;
-        }
-        h1 {
-            color: #494539; /*#0056b3; Deeper blue */
-            border-bottom: 3px solid #0056b3;
-            padding-bottom: 10px;
-            margin-bottom: 10px;
-            font-size: 2.5em; /* Slightly larger heading */
-        }
-        header p {
-            color: #555;
-            font-size: 1.1em;
-        }
-        h2 {
-            color: #0056b3;
-            margin-top: 30px;
-            margin-bottom: 15px;
-            font-size: 1.8em;
-        }
-        h4 {
-            color: #494539;
-        }
-        .section {
-            margin-bottom: 30px;
-            padding: 25px;
-            border: 1px solid #e0e0e0; /* Lighter border */
-            border-radius: 8px;
-            background-color: #fefefe; /* Slightly off-white background for sections */
-        }
-        .section ul {
-            list-style-type: disc; /* Use standard disc bullets */
-            padding-left: 20px;
-        }
-        .section li {
-            margin-bottom: 8px;
-        }
-        .contact-info {
-            background-color: #f0f8ff; /* Light blue background for contact */
-            border-color: #add8e6; /* Light blue border */
-        }
-        .contact-info h2 {
-            color: #007bff; /* Brighter blue for contact heading */
-        }
-        .contact-info p {
-            margin-bottom: 10px;
-            font-weight: 500; /* Slightly bolder contact info */
-        }
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            color: #777;
-            font-size: 0.9em;
+        .banner {
+            background-image: url('assets/images/graduation-banner.png');
         }
     </style>
 </head>
 <body>
+    <nav class="site-nav">
+        <a class="brand" href="index.html">
+            <span class="mark">U</span>
+            UniPath Consultancy
+        </a>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-image"></div>
+        <div class="hero-content">
+            <div class="logo-mark">
+                <img class="logo-image" src="assets/images/logo.png" alt="UniPathForge">
+            </div>
+            <p class="quote">At UniPath Consultancy, we&rsquo;re dedicated to guiding you with insight and expertise.</p>
+        </div>
+    </header>
+
     <div class="container">
-        <header>
-            <img src="icon.png" style="max-width: 200px"/>
-            <h1></h1>
-            <p>Empowering Students for College Success</p>
-        </header>
-
-        <section class="section">
-            <h2>Our Focus</h2>
-            <p>We partner with schools and educational entities to provide comprehensive guidance for middle and high school students navigating their journey to higher education.</p>
+        <section id="journey">
+            <h2>Let&rsquo;s embark on this transformative journey together</h2>
+            <div class="col-grid">
+                <div>
+                    <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2c2.5 2.5 4 6 4 10s-1.5 7.5-4 10c-2.5-2.5-4-6-4-10s1.5-7.5 4-10z"/></svg>
+                    <h3>Our Journey</h3>
+                    <p>Founded in 2024 on the belief that every individual&rsquo;s path is unique, we offer tailored career and university guidance that meets both institutional and personal needs, crafting a plan that aligns with your true potential.</p>
+                </div>
+                <div>
+                    <svg class="icon" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.6.6 1 1.4 1 2.5h6c0-1.1.4-1.9 1-2.5A6 6 0 0 0 12 3z"/></svg>
+                    <h3>Our Inspiration</h3>
+                    <p>We&rsquo;re inspired by your courage to pursue what truly matters. Your journey motivates us to provide not just advice, but a supportive partnership in realizing your dreams.</p>
+                </div>
+                <div>
+                    <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M7.5 12l3 3 6-7"/></svg>
+                    <h3>Our Promise</h3>
+                    <p>Trust us to be your compass, turning uncertainty into clarity and guiding you towards a future filled with possibility.</p>
+                </div>
+            </div>
         </section>
 
-        <section class="section">
-            <h2>About Us</h2>
-            <ul>
-                Founded in 2024 on the belief that every individual's path is unique, we offer tailored career guidance that resonates with your personal aspirations.
-                Our process starts with understanding your dreams and strengths, crafting a plan that aligns with your true potential.
-            </ul>
+        <section id="how-we-help">
+            <h2>Nurturing educational growth through dynamic solutions</h2>
+            <div class="program-grid">
+                <div>
+                    <div class="photo"></div>
+                    <h3>Academic Development through School-University Collaboration</h3>
+                    <ul>
+                        <li>University Preparation Awareness, including forums and fairs</li>
+                        <li>Project Based Learning programs and activities</li>
+                        <li>Focus group sessions</li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="photo"></div>
+                    <h3>Youth Career Development Journey &amp; Exposure Opportunities</h3>
+                    <ul>
+                        <li>Internships</li>
+                        <li>Part-time Employment</li>
+                        <li>Research Projects</li>
+                        <li>Job Shadowing</li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="photo"></div>
+                    <h3>Personal Development Through Entities Engagement &amp; Services</h3>
+                    <ul>
+                        <li>Career Fairs</li>
+                        <li>Career Development Skills</li>
+                        <li>Competency Skills</li>
+                        <li>Summer Programs</li>
+                    </ul>
+                </div>
+            </div>
         </section>
-
-        <section class="section">
-            <h2>How We Help</h2>
-
-            <h4>
-                Academic Development through School-University Collaboration
-            </h4>
-            <ul>
-                <li>University Preparation Awarenesses, including forums and fairs</li>
-                <li>Project Based Learning programs and activities</li>
-                <li>Focus group sessions</li>
-            </ul>
-
-            <h4>
-                Youth Career Development Journey & Exposure Opportunities
-            </h4>
-            <ul>
-                <li>Internships</li>
-                <li>Part-time Employment</li>
-                <li>Research Projects</li>
-                <li>Job Shadowing</li>
-            </ul>
-
-            <h4>
-                Personal Development Through Entities Engagement & Services
-            </h4>
-            <ul>
-                <li>Career Fairs</li>
-                <li>Career Development Skills</li>
-                <li>Competency Skills</li>
-                <li>Summer Programs</li>
-            </ul>
-            
-            <!-- <ul>
-                <li>College Application Support</li>
-                <li>Career Exploration Resources</li>
-                <li>University Guidance Workshops</li>
-                <li>Strategic Planning for Academic Pathways</li>
-            </ul> -->
-        </section>
-
-        <section class="section contact-info">
-            <h2>Contact Us</h2>
-            <p>Reach out to us at <a href="mailto:[Your Business Email]" style="color: #007bff; text-decoration: none;">contact@unipathforge.com</a>.</p>
-        </section>
-
-        <footer>
-            <p>&copy; 2025 UniPathForge</p>
-        </footer>
     </div>
+
+    <div class="banner"></div>
+
+    <div class="container">
+        <section id="partnerships">
+            <h2>Fostering collaborative partnerships for student success</h2>
+            <div class="timeline-text">
+                <p>We actively seek partnerships with educational institutions, industry leaders, and community organizations to create a comprehensive support network for learners.</p>
+                <p>We create opportunities for students to connect with industry professionals, gain real-world experience, and explore diverse career paths.</p>
+            </div>
+            <div class="timeline-track">
+                <div class="node"><div class="num">1</div></div>
+                <div class="node"><div class="num">2</div></div>
+                <div class="node"><div class="num">3</div></div>
+            </div>
+            <p class="timeline-caption">By working together, we can leverage shared resources, expertise, and perspectives to develop innovative solutions that address the unique challenges faced by students today.</p>
+        </section>
+
+        <section id="contact" class="contact-info">
+            <h2>Contact Us</h2>
+            <p>Reach out to us at <a href="mailto:contact@unipathforge.com">contact@unipathforge.com</a></p>
+            <p class="address">Dubai Digital Park, Dubai Silicon Oasis<br>Dubai, United Arab Emirates</p>
+        </section>
+    </div>
+
+    <footer>
+        <p><a href="terms.html">Terms of Use</a> &middot; <a href="privacy.html">Privacy Policy</a></p>
+        <p>Dubai Digital Park, Dubai Silicon Oasis, Dubai, United Arab Emirates</p>
+        <p>&copy; 2025 UniPathForge &middot; @UniPath Consultancy</p>
+    </footer>
 </body>
 </html>
